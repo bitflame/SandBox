@@ -1,0 +1,15 @@
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\SandBox.exe.config
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\SandBox.exe
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\SandBox.pdb
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csprojAssemblyReference.cache
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\MainWindow.g.cs
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\App.g.cs
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox_MarkupCompile.cache
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox_MarkupCompile.lref
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\MainWindow.baml
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.g.resources
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.Properties.Resources.resources
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.GenerateResource.cache
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.CoreCompileInputs.cache
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.exe
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.pdb
