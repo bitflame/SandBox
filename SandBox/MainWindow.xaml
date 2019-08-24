@@ -24,7 +24,7 @@
                 <MenuItem Name="formatFontMenuItem" Header="_Font..." Click="formatFontMenuItem_Click" />
                 <!--Main Window-->
                 <MenuItem Name="formatMarginsMenuItem" Header="_Margins..." Click="formatMarginsMenuItem_Click" />
-            </MenuItem>
+                </MenuItem>
         </Menu>
 
         <TextBox
@@ -39,4 +39,5 @@
             The quick brown fox jumped over the lazy old brown dog.
         </TextBox>
     </DockPanel>
+    
 </Window>

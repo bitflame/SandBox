@@ -59,7 +59,19 @@ namespace SandBox
 
         private void editFindMenuItem_Click(object sender, RoutedEventArgs e)
         {
+            FindDialogBox dlg = new FindDialogBox(this.documentTextBox);
+            dlg.Owner = this;
+            dlg.TextFound += new TextFoundEventHandler(dlg_TextFound);
+            dlg.Show();
+        }
+        private void dlg_TextFound(object sender, EventArgs e)
+        {
+            // Get the find dialog box that raised the event
+            var dlg = (FindDialogBox)sender;
 
+            // Get find results and select found text
+            documentTextBox.Select(dlg.Index, dlg.Length);
+            documentTextBox.Focus();
         }
 
         private void formatFontMenuItem_Click(object sender, RoutedEventArgs e)
