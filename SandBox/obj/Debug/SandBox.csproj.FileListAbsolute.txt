@@ -13,3 +13,7 @@ C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.GenerateResou
 C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.CoreCompileInputs.cache
 C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.exe
 C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.pdb
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\DialogBox.exe
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\DialogBox.pdb
+C:\Users\usr\source\repos\SandBox\SandBox\bin\Debug\DialogBox.exe.config
+C:\Users\usr\source\repos\SandBox\SandBox\obj\Debug\SandBox.csproj.CopyComplete

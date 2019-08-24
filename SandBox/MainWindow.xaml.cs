@@ -36,35 +36,40 @@ namespace SandBox
             dlg.DocumentMargin = this.documentTextBox.Margin;
             dlg.ShowDialog();
         }
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            
-            String caption = "Word Process";
-            MessageBoxButton button = MessageBoxButton.YesNoCancel;
-            MessageBoxImage icon = MessageBoxImage.Warning;
-            MessageBoxResult result = MessageBox.Show("Do you want to save changes? ", caption, button, icon);
-            switch (result)
-            {
-                case MessageBoxResult.None:
-                    break;
-                case MessageBoxResult.OK:
-                    break;
-                case MessageBoxResult.Cancel:
-                    break;
-                case MessageBoxResult.Yes:
-                    break;
-                case MessageBoxResult.No:
-                    break;
-                default:
-                    break;
-            }
-        }
 
-        private void okButtonClick(object sender, RoutedEventArgs e)
+        private void fileOpen_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
+        private void fileSave_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
+
+        private void filePrint_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void fileExit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void editFindMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void formatFontMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void documentTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

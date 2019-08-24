@@ -6,33 +6,37 @@
         xmlns:local="clr-namespace:SandBox"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="20"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="20"/>
-        </Grid.RowDefinitions>
-        <StackPanel Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4">
-            <Button Name="okButton" Click="okButtonClick" IsDefault="True">Ok</Button>
-            <Button x:Name="cancelButton" IsCancel="True">Cancel</Button>
-        </StackPanel>
-        <MenuItem Grid.Column="4" Grid.Row="0" Grid.RowSpan="4" Name="FormatMarginsMenuItem" Header="_Margins..." Click="formatMarginsMenuItem_Click"/>
-        
-    </Grid>
+    <DockPanel>
+
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open" Click="fileOpen_Click" />
+                <MenuItem Header="_Save" Click="fileSave_Click" />
+                <MenuItem Header="_Print" Click="filePrint_Click" />
+                <Separator />
+                <MenuItem Header="_Exit" Click="fileExit_Click" />
+            </MenuItem>
+            <MenuItem Header="_Edit">
+                <!--Main Window-->
+                <MenuItem Name="editFindMenuItem" Header="_Find" InputGestureText="Ctrl+F" Click="editFindMenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="F_ormat">
+                <MenuItem Name="formatFontMenuItem" Header="_Font..." Click="formatFontMenuItem_Click" />
+                <!--Main Window-->
+                <MenuItem Name="formatMarginsMenuItem" Header="_Margins..." Click="formatMarginsMenuItem_Click" />
+            </MenuItem>
+        </Menu>
+
+        <TextBox
+      Name="documentTextBox"
+      TextChanged="documentTextBox_TextChanged" 
+      ScrollViewer.CanContentScroll="True" 
+      ScrollViewer.HorizontalScrollBarVisibility="Visible" 
+      ScrollViewer.VerticalScrollBarVisibility="Visible" 
+      AcceptsReturn="True" 
+      AcceptsTab="True" 
+      BorderThickness="0" >
+            The quick brown fox jumped over the lazy old brown dog.
+        </TextBox>
+    </DockPanel>
 </Window>
